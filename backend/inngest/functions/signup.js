@@ -35,6 +35,6 @@ export const onUserSignup = inngest.createFunction(
             catch (error) {
                 console.error("Error in onUserSignup function:", error.message);
                 return { success: false, message: error.message };
-
             }       
 })
+
